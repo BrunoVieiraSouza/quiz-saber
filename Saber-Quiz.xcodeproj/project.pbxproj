@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A8988F81350CA91DEA7272 /* Pods_Saber_Quiz_Saber_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64E4A4E8CC27FD2FB820F0F /* Pods_Saber_Quiz_Saber_QuizUITests.framework */; };
+		8A99F49EE3EDD7D07DACBDBB /* Pods_Saber_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457723FBC6FA6F88D265CC7 /* Pods_Saber_QuizTests.framework */; };
 		B07E979C29945BB4004333EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E979B29945BB4004333EE /* AppDelegate.swift */; };
 		B07E979E29945BB4004333EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E979D29945BB4004333EE /* SceneDelegate.swift */; };
 		B07E97A029945BB4004333EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E979F29945BB4004333EE /* LoginViewController.swift */; };
@@ -17,6 +19,7 @@
 		B07E97BF29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97BE29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift */; };
 		B07E97CE29945D2B004333EE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97CD29945D2B004333EE /* Coordinator.swift */; };
 		B07E97D129945D53004333EE /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97D029945D53004333EE /* LoginCoordinator.swift */; };
+		E97F8FFF0E35DA65389724BB /* Pods_Saber_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291CED733C2F5160C0BEB03 /* Pods_Saber_Quiz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DBC65E4B5F31657418EE006 /* Pods-Saber-Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-Quiz.debug.xcconfig"; path = "Target Support Files/Pods-Saber-Quiz/Pods-Saber-Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		6457723FBC6FA6F88D265CC7 /* Pods_Saber_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saber_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		706407E28936AF7D777AC2C7 /* Pods-Saber-Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-Quiz.release.xcconfig"; path = "Target Support Files/Pods-Saber-Quiz/Pods-Saber-Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		88ABFB2FDB1E52AFD8416817 /* Pods-Saber-QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-QuizTests.release.xcconfig"; path = "Target Support Files/Pods-Saber-QuizTests/Pods-Saber-QuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		A80726406D7F403AB96B04A9 /* Pods-Saber-Quiz-Saber-QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-Quiz-Saber-QuizUITests.release.xcconfig"; path = "Target Support Files/Pods-Saber-Quiz-Saber-QuizUITests/Pods-Saber-Quiz-Saber-QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B07E979829945BB4004333EE /* Saber-Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saber-Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07E979B29945BB4004333EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B07E979D29945BB4004333EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		B07E97BE29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saber_QuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B07E97CD29945D2B004333EE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B07E97D029945D53004333EE /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		CA23EFF63F9EE0C179827D1E /* Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-Saber-Quiz-Saber-QuizUITests/Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E291CED733C2F5160C0BEB03 /* Pods_Saber_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saber_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64E4A4E8CC27FD2FB820F0F /* Pods_Saber_Quiz_Saber_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saber_Quiz_Saber_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19962738E5C187B5CAE7E0C /* Pods-Saber-QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-QuizTests.debug.xcconfig"; path = "Target Support Files/Pods-Saber-QuizTests/Pods-Saber-QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97F8FFF0E35DA65389724BB /* Pods_Saber_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A99F49EE3EDD7D07DACBDBB /* Pods_Saber_QuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A8988F81350CA91DEA7272 /* Pods_Saber_Quiz_Saber_QuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52C526641D474F73D66F4614 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBC65E4B5F31657418EE006 /* Pods-Saber-Quiz.debug.xcconfig */,
+				706407E28936AF7D777AC2C7 /* Pods-Saber-Quiz.release.xcconfig */,
+				CA23EFF63F9EE0C179827D1E /* Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig */,
+				A80726406D7F403AB96B04A9 /* Pods-Saber-Quiz-Saber-QuizUITests.release.xcconfig */,
+				F19962738E5C187B5CAE7E0C /* Pods-Saber-QuizTests.debug.xcconfig */,
+				88ABFB2FDB1E52AFD8416817 /* Pods-Saber-QuizTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5DFD5FABFC1B770D9832DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E291CED733C2F5160C0BEB03 /* Pods_Saber_Quiz.framework */,
+				E64E4A4E8CC27FD2FB820F0F /* Pods_Saber_Quiz_Saber_QuizUITests.framework */,
+				6457723FBC6FA6F88D265CC7 /* Pods_Saber_QuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B07E978F29945BB4004333EE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				B07E97B129945BBB004333EE /* Saber-QuizTests */,
 				B07E97BB29945BBB004333EE /* Saber-QuizUITests */,
 				B07E979929945BB4004333EE /* Products */,
+				52C526641D474F73D66F4614 /* Pods */,
+				A5DFD5FABFC1B770D9832DBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B07E97C229945BBB004333EE /* Build configuration list for PBXNativeTarget "Saber-Quiz" */;
 			buildPhases = (
+				53ECEBBC54DDE5272D2D9AD2 /* [CP] Check Pods Manifest.lock */,
 				B07E979429945BB4004333EE /* Sources */,
 				B07E979529945BB4004333EE /* Frameworks */,
 				B07E979629945BB4004333EE /* Resources */,
+				B07E97D329946AB2004333EE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -186,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B07E97C529945BBB004333EE /* Build configuration list for PBXNativeTarget "Saber-QuizTests" */;
 			buildPhases = (
+				D7C2ECD209D1EE971DC9D6FA /* [CP] Check Pods Manifest.lock */,
 				B07E97AA29945BBB004333EE /* Sources */,
 				B07E97AB29945BBB004333EE /* Frameworks */,
 				B07E97AC29945BBB004333EE /* Resources */,
@@ -204,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B07E97C829945BBB004333EE /* Build configuration list for PBXNativeTarget "Saber-QuizUITests" */;
 			buildPhases = (
+				C96B2A44AA59842131075400 /* [CP] Check Pods Manifest.lock */,
 				B07E97B429945BBB004333EE /* Sources */,
 				B07E97B529945BBB004333EE /* Frameworks */,
 				B07E97B629945BBB004333EE /* Resources */,
@@ -286,6 +330,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53ECEBBC54DDE5272D2D9AD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saber-Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07E97D329946AB2004333EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$ {PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		C96B2A44AA59842131075400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saber-Quiz-Saber-QuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C2ECD209D1EE971DC9D6FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saber-QuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B07E979429945BB4004333EE /* Sources */ = {
@@ -460,6 +590,7 @@
 		};
 		B07E97C329945BBB004333EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBC65E4B5F31657418EE006 /* Pods-Saber-Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +618,7 @@
 		};
 		B07E97C429945BBB004333EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706407E28936AF7D777AC2C7 /* Pods-Saber-Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -514,6 +646,7 @@
 		};
 		B07E97C629945BBB004333EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19962738E5C187B5CAE7E0C /* Pods-Saber-QuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +667,7 @@
 		};
 		B07E97C729945BBB004333EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ABFB2FDB1E52AFD8416817 /* Pods-Saber-QuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +688,7 @@
 		};
 		B07E97C929945BBB004333EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA23EFF63F9EE0C179827D1E /* Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +707,7 @@
 		};
 		B07E97CA29945BBB004333EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80726406D7F403AB96B04A9 /* Pods-Saber-Quiz-Saber-QuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
