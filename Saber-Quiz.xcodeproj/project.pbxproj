@@ -19,6 +19,10 @@
 		B07E97BF29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97BE29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift */; };
 		B07E97CE29945D2B004333EE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97CD29945D2B004333EE /* Coordinator.swift */; };
 		B07E97D129945D53004333EE /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E97D029945D53004333EE /* LoginCoordinator.swift */; };
+		B0C7E40229A4FF3300824CAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7E40129A4FF3300824CAD /* LoginView.swift */; };
+		B0C7E40529A5005F00824CAD /* UIViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7E40429A5005F00824CAD /* UIViewDefault.swift */; };
+		B0C7E40729A5013700824CAD /* UITextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7E40629A5013700824CAD /* UITextFieldDefault.swift */; };
+		B0C7E40929A501DF00824CAD /* LabelTextDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C7E40829A501DF00824CAD /* LabelTextDefault.swift */; };
 		E97F8FFF0E35DA65389724BB /* Pods_Saber_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E291CED733C2F5160C0BEB03 /* Pods_Saber_Quiz.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +63,10 @@
 		B07E97BE29945BBB004333EE /* Saber_QuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saber_QuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B07E97CD29945D2B004333EE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B07E97D029945D53004333EE /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		B0C7E40129A4FF3300824CAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B0C7E40429A5005F00824CAD /* UIViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDefault.swift; sourceTree = "<group>"; };
+		B0C7E40629A5013700824CAD /* UITextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldDefault.swift; sourceTree = "<group>"; };
+		B0C7E40829A501DF00824CAD /* LabelTextDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextDefault.swift; sourceTree = "<group>"; };
 		CA23EFF63F9EE0C179827D1E /* Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-Saber-Quiz-Saber-QuizUITests/Pods-Saber-Quiz-Saber-QuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E291CED733C2F5160C0BEB03 /* Pods_Saber_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saber_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64E4A4E8CC27FD2FB820F0F /* Pods_Saber_Quiz_Saber_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saber_Quiz_Saber_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +149,7 @@
 		B07E979A29945BB4004333EE /* Saber-Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				B0C7E40329A5004C00824CAD /* Source */,
 				B07E97D229945E88004333EE /* Resource */,
 				B07E97CB29945CFE004333EE /* Login */,
 				B07E97A929945BBB004333EE /* Info.plist */,
@@ -177,6 +186,7 @@
 		B07E97CC29945D07004333EE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B0C7E40029A4FF1E00824CAD /* Views */,
 				B07E979F29945BB4004333EE /* LoginViewController.swift */,
 			);
 			name = Screens;
@@ -200,6 +210,24 @@
 				B07E97A629945BBB004333EE /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		B0C7E40029A4FF1E00824CAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7E40129A4FF3300824CAD /* LoginView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B0C7E40329A5004C00824CAD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7E40429A5005F00824CAD /* UIViewDefault.swift */,
+				B0C7E40629A5013700824CAD /* UITextFieldDefault.swift */,
+				B0C7E40829A501DF00824CAD /* LabelTextDefault.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,11 +450,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C7E40229A4FF3300824CAD /* LoginView.swift in Sources */,
 				B07E97CE29945D2B004333EE /* Coordinator.swift in Sources */,
+				B0C7E40929A501DF00824CAD /* LabelTextDefault.swift in Sources */,
+				B0C7E40529A5005F00824CAD /* UIViewDefault.swift in Sources */,
 				B07E97A029945BB4004333EE /* LoginViewController.swift in Sources */,
 				B07E97D129945D53004333EE /* LoginCoordinator.swift in Sources */,
 				B07E979C29945BB4004333EE /* AppDelegate.swift in Sources */,
 				B07E979E29945BB4004333EE /* SceneDelegate.swift in Sources */,
+				B0C7E40729A5013700824CAD /* UITextFieldDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
