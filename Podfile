@@ -12,6 +12,7 @@ target 'Saber-Quiz' do
     # Pods for testing
 
 pod 'SwiftLint'
+pod 'SwiftGen', '~> 6.0'
 
   end
 
